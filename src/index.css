@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./font/Gilroy-Light.otf') format('opentype');
+}
+@font-face{
+  font-family: 'Gilroy-b';
+  font-style: normal;
+  font-weight: semibold;
+  src: url('./font/Gilroy-ExtraBold.otf') format('opentype');
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
